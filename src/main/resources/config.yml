@@ -1,0 +1,8 @@
+token address: "0x..."
+token decimals: 18
+sent: "<yellow>You sent <blue><amount> CRAFT</blue> to <receiver></yellow> <blue><hover:show_text:'Click to open'><click:open_url:'https://polygonscan.com/tx/<tx_hash>'><u>See on polygonscan</u></click></hover></blue>"
+received: "<green>You received <blue><amount> CRAFT</blue> from <sender></green> <blue><hover:show_text:'Click to open'><click:open_url:'https://polygonscan.com/tx/<tx_hash>'><u>See on polygonscan</u></click></hover></blue>"
+confirm: "<gold>You're going to send <blue><amount> CRAFT</blue> to <green><receiver></green>.</gold> <blue><hover:show_text:'Click to confirm'><click:run_command:'/transfer <receiver> <amount>'><u>Confirm</u></click></hover></blue>"
+player not found: "<red>Player <name> was not found.</red>"
+error: "<red>Transaction error. Check if you have enough CRAFT and MATIC.</red>"
+command usage: "<gold>Usage: /transfer [name/address] [amount]</gold>"
